@@ -4,57 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css" >
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
+    
+    
 </head>
 <body>
     <!--Шапка-->
-<header class="page-header">
+<header class="header list">
     <nav>
-        <a class="title" href="./index.html"><span class="title-web">Web</span> <span class="title-studio">Studio</span></a>
-        <ul class="site-nav">
-            <li><a href="" class="link">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+        <a class="list" href="./index.html"><span class="title-web link list">Web</span> <span class="title-studio link list">Studio</span></a>
+        <ul class="link list">
+            <li><a class="site-nav link list" href="">Студия</a></li>
+            <li><a class="site-nav link list" href="./portfolio.html">Портфолио</a></li>
+            <li><a class="site-nav link list" href="" class="link list">Контакты</a></li>
         </ul>
          
     </nav>
-    <ul class="auth-nav">
-        <li><a href="mailto:info@devstudio.com" class="link"> <img src="./images/envelope(hover).svg" alt="envelope"> info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="link"><img src="./images/Vector.svg" alt="telefone">+38 096 111 11 11</a></li>
+    <ul class="auth-nav list">
+        <li>
+            <a class="auth-nav list link" href="mailto:info@devstudio.com">
+                <img src="./images/envelope(hover).svg" alt="envelope">info@devstudio.com
+            </a>   
+        </li>
+        <li><a class="auth-nav list link" href="tel:+380961111111"><img src="./images/Vector.svg" alt="telefone">+38 096 111 11 11</a></li>
     </ul>      
 </header>
 <!--герой-->
 <main>
-    <section class="hearo">
-        <h1 class="headline">Эффективные решения <br> для вашего бизнеса</h1>
-        <button class="button-baner" type="button"> <span class="button-name">Заказать услугу</span></button>
+    <section class="hero">
+        <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
+        <button class="baner list link" type="button">Заказать услугу</button>
     </section>
 
 <!--Особености-->
 
     <section class="promo" >
-         <ul>
+         <ul class="list">
              <li class="feature">
                     <img src="./images/antenna1.svg" alt="antena">
-                    <h3>ВНИМАНИЕК К ДЕТАЛЯМ</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="title">Внимание к деталям</h3>
+                    <p class="about">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                  
              </li>
              <li class="feature">
                     <img src="./images/clock1.svg" alt="clock">
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="title">Пунктуальность</h3>
+                    <p class="about">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
             <li class="feature">
                     <img src="./images/diagram1.svg" alt="diagram">
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3 class="title">Планирование</h3>
+                    <p class="about">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
             <li class="feature">
                     <img src="./images/astronaut1.svg" alt="astronaut">
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="title">Современные технологии</h3>
+                    <p class="about">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
          </ul>
     </section>
@@ -63,18 +70,18 @@
 
     <section class="about-us"> 
             <h2 class="title-main">Чем мы занимаемся</h2>
-            <ul>
+            <ul class="list">
                 <li class="box">
                     <img src="./images/box1.jpg" width="370" alt="box">
-                    <p>Десктопные приложения</p>
+                    <h3 class="wwd">Десктопные приложения</h3>
                 </li>
                 <li class="box">
                     <img src="./images/box2.jpg" width="370" alt="box">
-                    <p> Мобильные приложения</p>
+                    <p class="wwd"> Мобильные приложения</p>
                 </li>
                 <li class="box">
                     <img src="./images/box3.jpg" width="370" alt="box">
-                    <p>Дизайнерские решения</p>
+                    <p class="wwd">Дизайнерские решения</p>
                 </li>
             </ul>
     </section>
@@ -83,12 +90,12 @@
     
     <section class="team">
              <h2 class="title-main">Наша команда</h2>
-             <ul>
+             <ul class="list">
                  <li class="team-card">
                     <img src="./images/teamcard1.jpg" width="270" alt="team card">
-                    <p><b class="team-name">Николай Кучеренко </b></p>
+                    <p class="team-name"><b>Николай Кучеренко</b></p>
                     <p lang="en" class="team-prof"> Product Designer </p> 
-                    <ul>
+                    <ul class="list">
                          <li class="social-link">
                                 <a href="" target="_blank" rel="noopener noreferrer">
                                     <img src="./images/instagram2.svg" alt="instagram">
@@ -113,9 +120,9 @@
                  </li>
                  <li class="team-card">
                      <img src="./images/teamcard2.jpg" width="270" alt="team card">
-                     <p><b class="team-name">Ольга Иванова </b></p>
+                     <p class="team-name">Ольга Иванова</p>
                      <p lang="en" class="team-prof">Frontend Developer </p>
-                     <ul>
+                     <ul class="list">
                         <li class="social-link">
                             <a href="" target="_blank" rel="noopener noreferrer">
                                 <img src="./images/instagram2.svg" alt="instagram">
@@ -139,9 +146,9 @@
                    </ul>
                  <li class="team-card">
                      <img src="./images/teamcard3.jpg" width="270" alt="team card">
-                     <p><b class="team-name">Андрей Шевченко </b></p>
+                     <p class="team-name">Андрей Шевченко</p>
                      <p lang="en" class="team-prof"> Marketing </p>
-                     <ul>
+                     <ul class="list">
                         <li class="social-link">
                             <a href="" target="_blank" rel="noopener noreferrer">
                                 <img src="./images/instagram2.svg" alt="instagram">
@@ -166,25 +173,25 @@
                  </li>
                  <li class="team-card">
                      <img src="./images/teamcard4.jpg" width="270" alt="team card">
-                     <p><b class="team-name">Иван Николаев</b></p>
+                     <p class="team-name">Иван Николаев</p>
                      <p lang="en" class="team-prof"> UI Designer </p>
-                     <ul>
-                        <li class="social-link">
+                     <ul class="list">
+                        <li class="social link">
                             <a href="" target="_blank" rel="noopener noreferrer">
                                 <img src="./images/instagram2.svg" alt="instagram">
                             </a>
                         </li>
-                        <li class="social-link">
+                        <li class="social link">
                             <a href="" target="_blank" rel="noopener noreferrer">
                                 <img src="./images/twitter.svg" alt="twitter">
                             </a>
                         </li>
-                        <li class="social-link">
+                        <li class="social link">
                             <a href="" target="_blank" rel="noopener noreferrer">
                                 <img src="./images/facebook.svg" alt="facebook">
                             </a>
                         </li>
-                        <li class="social-link">
+                        <li class="social link">
                             <a href="" target="_blank" rel="noopener noreferrer">
                                 <img src="./images/linkedin.svg" alt="linkedin">
                             </a>
@@ -198,7 +205,7 @@
 
     <section class="clients">
             <h2 class="title-main">Постоянные клиенты</h2>
-            <ul>
+            <ul class="list">
                 <li class="clients-padding">
                     <a href="" aria-label="Силка на YA & CO" target="_blank" rel="noopener noreferrer">
                         <img src="./images/logo1.svg" alt="logo company">
@@ -235,35 +242,38 @@
 </main>
 <!-- Подвал -->
 <footer>
-    <a class="title" href="./index.html">
+    <a class="title link list" href="./index.html">
         <span class="title-web">Web</span> <span class="title-studio">Studio</span>
     </a>
     
     <address>
         г. Киев, пр-т Леси Украинки, 26<br/>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br/>
-        <a href="tel:+380961111111">+38 096 111 11 11</a><br/>
+        <a class="link list" href="mailto:info@devstudio.com">info@devstudio.com</a><br/>
+        <a class="link list" href="tel:+380961111111">+38 096 111 11 11</a><br/>
      </address>  
     <b>Присоединяйтесь</b>
-    <ul>
+    <ul class="list">
         <li>
-            <a href="" aria-label="Силка на instagram" target="_blank" rel="noopener noreferrer">instagram</a>
+            <a class="link list" href="" aria-label="Силка на instagram" target="_blank" rel="noopener noreferrer">instagram</a>
         </li>
         <li>
-            <a href="" aria-label="Силка на twitter" target="_blank" rel="noopener noreferrer">twitter</a>
+            <a class="link list" href="" aria-label="Силка на twitter" target="_blank" rel="noopener noreferrer">twitter</a>
         </li>
         <li>
-            <a href="" aria-label="Силка на facebook" target="_blank" rel="noopener noreferrer">facebook</a>
+            <a class="link list" href="" aria-label="Силка на facebook" target="_blank" rel="noopener noreferrer">facebook</a>
         </li>
         <li>
-            <a href="" aria-label="Силка на linkedin" target="_blank" rel="noopener noreferrer">linkedin</a>
+            <a class="link list" href="" aria-label="Силка на linkedin" target="_blank" rel="noopener noreferrer">linkedin</a>
         </li>
     </ul>  
-    <b>Подпишитесь на рассылку</b>
-    <ul> 
-        <li><a href="mailto:info@devstudio.com"></a> <button type="button">  E-mail </button></li>
-        <li><button type="button">Подписаться</button></li>
-    </ul>
+    <!-- 
+            <b>Подпишитесь на рассылку</b>
+            <ul> 
+                <li><a href="mailto:info@devstudio.com">E-mail</a></li>
+                <li><button type="button" class="link" >Подписаться</button></li>
+            </ul> 
+    -->
+   
 </footer>
 </body>
 </html>

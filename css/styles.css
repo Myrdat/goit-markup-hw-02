@@ -1,3 +1,10 @@
+/* CSS rules to specify families
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+
 /*  CCS перемение*/
 :root {
    --primary-text-color: #757575;
@@ -5,89 +12,131 @@
    --color-text-white: #ffffff 
 }
 
-ul {
-    list-style: none;
-}
-
-.body {
+body {
     background-color: #ffffff;
-    color: var(--primary-text-color) 
-    font-family: 'roboto';
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }  
 
+.list {
+    list-style: none; 
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
 /* site nav */
 .title-web {
-    color: blue;
+    font-family: 'Raleway', sans-serif;
+    color:#2196F3;
     font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.53;
 }
 
 .title-studio {
-    color: black;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
     font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.53;
 }
-/*  */
-.site-nav .link {
+
+.site-nav {
     color: #212121;
-    font-size: 14;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1;
 } 
 
-.auth-nav .link{
+.auth-nav {
     color: var(--primary-text-color);
-    font-size:14px;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: #2196F3;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1;
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-    color: #2196f3;
+.hero-title {
+    color: var(--color-text-white);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.318;
+    text-transform: uppercase;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: rgba(47, 48, 58, 0.8);
     }
-.hearo  h1 {
-        font-size: 44px;
+    
+.baner {
+    color: var(--color-text-white);  
+    background-color: #2196F3;  
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.875;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
     }
-
 
     /* Особености */
 
-.feature > h3  {
-       color: var(--title-text-color); 
-       font-size: 14px;
+.feature > .title  {
+    color: var(--title-text-color); 
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 1;
+    text-transform: uppercase;
     }
 
-.feature > p {
-    color: var(--primary-text-color);
+.feature > .about {
+    width: 270px;
+    height: 75px;
+    line-height: 24px;
+    letter-spacing: 1;
 }
 
-.about-us  p {
+.title-main {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.388;
+
+}
+
+.box > .wwd {
     width: 370px;
     height: 70px; 
+    line-height: 16px;
     text-align: center;
-    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1;
     color: var(--color-text-white);
     background-color: rgba(47, 48, 58,0.8); 
 }
-.team .team-prof  {
-    color: var(--primary-text-color);
-    font-size: 16px;
-}
-.team .team-name {
-    font-size:  16px;
-    color: var(--title-text-color);
-}
-.title-main {
-    font-size: 36px;
-    color: var(--title-text-color);
-}
-/* promo */
-.promo  h3 {
-    font-size: 14px;
-    color: var(--title-text-color);
-}
-.promo  p {
-    font-size: 14px;
-    color: var(--primary-text-color);
-}
 
-    
+.team .team-name {
+    color: var(--title-text-color);
+    font-size:  16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.875;
+}
+.team .team-prof  {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.875;
+}
