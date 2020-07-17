@@ -140,3 +140,54 @@ border-radius: 4px;
     text-align: center;
     letter-spacing: 0.875;
 }
+
+/* footer */
+footer {
+    width: 1600px;
+    height: 252px;
+    left: 1px;
+    background-color: #2F303A;
+}
+.footer-title {
+    color: var(--color-text-white);
+    line-height: 16px;
+    letter-spacing: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.street {
+    color: var(--color-text-white);
+    line-height: 24px;
+    letter-spacing: 1;
+}
+.address {
+color: var(--primary-text-color);
+line-height: 24px;
+letter-spacing: 1;
+}
+
+/* CSS Portfolio */
+
+.filtr {
+    color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.875;
+}
+.projects {
+    display: flex;
+    }
+.project-title {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.777;
+}
+.project-filtr {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.875;
+}
