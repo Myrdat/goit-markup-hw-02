@@ -24,11 +24,16 @@ body {
     text-decoration: none;
    }
 
+.title-studio.link:hover,
+.title-studio.link:focus,
 .site-nav.link:hover,
 .site-nav.link:focus{
-color: #2196f3;
+    color: #2196f3;
 }
-
+.auth-nav.link:hover,
+.auth-nav.link:focus {
+    color: #2196f3;
+}
 
 /* site nav */  
 .title-web {
@@ -46,31 +51,27 @@ color: #2196f3;
     line-height: 1.192;
     }
 
-.site-nav.current,
-.current{
+.site-nav .current,
+.auth-nav.current{
     color: #2196F3;
     } 
-.site-nav.list{
+.site-nav {
     color: #212121;
     font-weight: 500;
     line-height: 1.142;
-    
-} 
+    } 
 
 .auth-nav {
     color: var(--primary-text-color);
     font-weight: 500;
     line-height:1.142;
-   
-}
+   }
 
 .hero-title {
-    
     width: 136px;
     height: 30px;
     left: 732px;
     top: 440px;
-
     color: var(--color-text-white);
     font-size: 44px;
     font-weight: 900;
@@ -90,7 +91,6 @@ color: #2196f3;
     height: 30px;
     left: 732px;
     top: 440px;    
-
     color: var(--color-text-white);  
     background-color: #2196F3;  
     font-size: 16px;
@@ -189,6 +189,11 @@ font-style: normal;
     font-weight: 14px;
     line-height: 1.142x;
     }
+
+.site-nav-portfolio.link:hover,
+.site-nav-portfolio.link:focus {
+    color: #2196f3;
+}    
 .filtr {
     color: var(--title-text-color);
     font-size: 16px;
