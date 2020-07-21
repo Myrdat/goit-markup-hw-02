@@ -26,8 +26,8 @@ body {
 
 .title-studio.link:hover,
 .title-studio.link:focus,
-.site-nav.link:hover,
-.site-nav.link:focus{
+.site-nav .link:hover,
+.site-nav .link:focus{
     color: #2196f3;
 }
 .auth-nav.link:hover,
@@ -52,10 +52,10 @@ body {
     }
 
 .site-nav .current,
-.auth-nav.current{
+.auth-nav .current{
     color: #2196F3;
     } 
-.site-nav {
+.site-nav .list {
     color: #212121;
     font-weight: 500;
     line-height: 1.142;
@@ -68,8 +68,7 @@ body {
    }
 
 .hero-title {
-    width: 136px;
-    height: 30px;
+   
     left: 732px;
     top: 440px;
     color: var(--color-text-white);
@@ -78,23 +77,27 @@ body {
     line-height:1.363;
     text-align: center;
     text-transform: uppercase;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
+    /* width: 1600px;
+    height: 600px; */
+    /* left: 0px; */
+    /* top: 80px; */
     background: rgba(47, 48, 58, 0.8);
     }
     
 .baner {
-    position: absolute;
-    width: 136px;
-    height: 30px;
-    left: 732px;
-    top: 440px;    
+    
+    width: 200px;
+    height: 50px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+      
     color: var(--color-text-white);  
     background-color: #2196F3;  
     font-size: 16px;
-    line-height:1.875;
+    font-weight: 700;
+    line-height:0.533;
     display: flex;
     align-items: center;
     text-align: center;
@@ -113,7 +116,7 @@ body {
     color: var(--title-text-color); 
     font-weight: bold;
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 0.875;
     text-transform: uppercase;
     }
 
@@ -175,9 +178,9 @@ footer {
     font-style: normal;
 }
 .address {
-color: var(--primary-text-color);
+color:rgba(255, 255, 255, 0.6);
+;
 line-height: 24px;
-letter-spacing: 1.714;
 font-style: normal;
 }
 
@@ -197,6 +200,7 @@ font-style: normal;
 .filtr {
     color: var(--title-text-color);
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.625;
     border-radius: 4px;
     background-color: #F5F4FA;;
