@@ -50,12 +50,10 @@ body {
     font-size: 26px;
     line-height: 1.192;
     }
-
-.site-nav .current,
-.auth-nav .current{
+.site-nav .link.current{
     color: #2196F3;
     } 
-.site-nav .list {
+.site-nav .link {
     color: #212121;
     font-weight: 500;
     line-height: 1.142;
@@ -186,17 +184,21 @@ font-style: normal;
 
 /* CSS Portfolio */
 
-.site-nav-portfolio {
+.site-nav-portfolio .link{
     color: #212121;
     font-weight: 500;
     font-weight: 14px;
     line-height: 1.142x;
     }
 
-.site-nav-portfolio.link:hover,
-.site-nav-portfolio.link:focus {
+.site-nav-portfolio .link:hover,
+.site-nav-portfolio .link:focus {
     color: #2196f3;
-}    
+}  
+
+.site-nav-portfolio .link.current {
+    color: #2196f3;
+}
 .filtr {
     color: var(--title-text-color);
     font-size: 16px;
